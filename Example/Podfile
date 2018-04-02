@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MTPupaCell_Example' do
+  pod 'MTPupaCell', :path => '../'
+
+  target 'MTPupaCell_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

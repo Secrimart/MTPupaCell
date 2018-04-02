@@ -12,6 +12,7 @@
 @import MTPupaCell;
 
 @interface MTPupaTableViewController ()
+@property (nonatomic, strong) MTPupaViewModel *viewModel; // 视图模型
 
 @end
 
@@ -26,14 +27,20 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    self.viewModel = [[MTPupaViewModel alloc] init];
-    
     [self.viewModel toReloadDataSourceBeforeRequest:nil onFinished:nil onFailed:nil];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+//MARK: - Getter And Setter
+- (MTPupaViewModel *)viewModel {
+    if (_viewModel) return _viewModel;
+    _viewModel = [[MTPupaViewModel alloc] init];
+    
+    return _viewModel;
 }
 
 //MARK: Table View Config Cell

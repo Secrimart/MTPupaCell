@@ -25,7 +25,7 @@ a set of UITableViewCell subclasses that use different layouts to display three 
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'secrimart@aliyun.com' => 'secrimart@aliyun.com' }
-  s.source           = { :git => 'https://github.com/secrimart@aliyun.com/MTPupaCell.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/secrimart/MTPupaCell.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

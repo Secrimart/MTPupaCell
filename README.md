@@ -22,7 +22,7 @@ pod 'MTPupaCell'
 
 ## Author
 
-rstx_reg@aliyun.com, secrimart@aliyun.com
+secrimart@aliyun.com
 
 ## License
 

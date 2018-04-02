@@ -8,6 +8,7 @@
 
 @import UIKit;
 
-@interface MTViewController : UIViewController
+@import MTBaseObjects;
+@interface MTViewController : MTBaseViewController
 
 @end

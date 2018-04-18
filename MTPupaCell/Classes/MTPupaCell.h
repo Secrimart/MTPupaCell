@@ -13,7 +13,7 @@ typedef NS_ENUM(NSInteger, MTPupaShowStyle) {
     MTPupaShowStyleNoTail = 1 << 2
 };
 
-@import JLFramework;
+@import MTFramework;
 @import Masonry;
 
 /**

@@ -10,7 +10,7 @@
 #import "MTPupaTableViewController.h"
 
 @import Masonry;
-@import JLFramework;
+@import MTFramework;
 
 @interface MTViewController ()
 @property (nonatomic, strong) MTPupaTableViewController *tableVC;

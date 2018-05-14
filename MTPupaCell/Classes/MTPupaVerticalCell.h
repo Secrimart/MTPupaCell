@@ -5,7 +5,7 @@
 //  Created by Jason Li on 2018/3/29.
 //
 
-#import "MTPupaCell.h"
+#import "MTPupaBaseCell.h"
 
 
 /**
@@ -17,6 +17,6 @@
  * |Tail... |
  *  --------
  **/
-@interface MTPupaVerticalCell : MTPupaCell
+@interface MTPupaVerticalCell : MTPupaBaseCell
 
 @end

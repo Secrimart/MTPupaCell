@@ -19,6 +19,27 @@
     [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeVerticalFixedHeadAndTail)}]];
     [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeFixedTailHeadAndBodyHalfOfRemain)}]];
     [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeVerticalFixedTailHeadAndBodyHalfOfRemain)}]];
+    
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeNomarl)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeVertical)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeFixedHeadAndTail)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeVerticalFixedHeadAndTail)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeFixedTailHeadAndBodyHalfOfRemain)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeVerticalFixedTailHeadAndBodyHalfOfRemain)}]];
+    
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeNomarl)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeVertical)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeFixedHeadAndTail)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeVerticalFixedHeadAndTail)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeFixedTailHeadAndBodyHalfOfRemain)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeVerticalFixedTailHeadAndBodyHalfOfRemain)}]];
+    
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeNomarl)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeVertical)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeFixedHeadAndTail)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeVerticalFixedHeadAndTail)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeFixedTailHeadAndBodyHalfOfRemain)}]];
+    [self.dataSource addObject:@[@{JLRowType:@(MTPupaRowTypeVerticalFixedTailHeadAndBodyHalfOfRemain)}]];
 }
 
 @end

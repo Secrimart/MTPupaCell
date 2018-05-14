@@ -5,7 +5,7 @@
 //  Created by Jason Li on 2018/3/29.
 //
 
-#import "MTPupaCell.h"
+#import "MTPupaBaseCell.h"
 
 /**
  * 三段文本Cell, 三段文本纵向布局
@@ -18,6 +18,6 @@
  * |Tail            |
  *  ----------------
  **/
-@interface MTPupaVerticalFixedTailHeadAndBodyHalfOfRemainCell : MTPupaCell
+@interface MTPupaVerticalFixedTailHeadAndBodyHalfOfRemainCell : MTPupaBaseCell
 
 @end

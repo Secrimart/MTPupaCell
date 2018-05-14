@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTPupaCell'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A set of UITableViewCell subclasses to display three labels.'
 
 # This description is used to generate tags and improve search results.
